@@ -565,6 +565,7 @@ input[type=submit].twitter {
   width: 100%;
   color: #fff;
   padding: 2rem;
+  font-family:sans-serif;
 }
 button.github,
 input[type=submit].github {
