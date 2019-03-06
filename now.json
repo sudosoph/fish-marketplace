@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "name": "fish-marketplace",
+  "builds": [
+    {"src": "package.json", "use": "@now/static-build", "config": { "distDir": "build" }}
+  ],
+  "routes": [
+    {"src": "^/static/(.*)", "dest": "/static/$1"},
+    {"src": "^/favicon.ico", "dest": "/favicon.ico"},
+    {"src": "^/manifest.json", "dest": "/manifest.json"},
+    {"src": "^/(.*)", "dest": "/index.html"}
+  ]
+}
