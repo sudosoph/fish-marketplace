@@ -1,0 +1,6 @@
+[submodule "build/fish-marketplace"]
+	path = build/fish-marketplace
+	url = https://github.com/sudosoph/fish-marketplace
+[submodule "build/fish-gh-build"]
+	path = build/fish-gh-build
+	url = https://github.com/sudosoph/fish-gh-build.git
